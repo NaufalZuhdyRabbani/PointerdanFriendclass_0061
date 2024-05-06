@@ -19,4 +19,6 @@ int main() {
 
 	Mahasiswa* pMhs = &mhs; //pointer deference pMhs
 	pMhs->nim = 3; // Arrow Operator
+	pMhs->showNim();
+
 }
