@@ -111,4 +111,4 @@ int main()
 	mahasiswa joko;
 	setNama(joko, "Kairi Kumar");
 	return 0;
-}
+} 
