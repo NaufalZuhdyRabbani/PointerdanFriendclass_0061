@@ -18,4 +18,5 @@ int main() {
 	refMhs.nim = 2;  // Member access operator
 
 	Mahasiswa* pMhs = &mhs; //pointer deference pMhs
+	pMhs->nim = 3; // Arrow Operator
 }
