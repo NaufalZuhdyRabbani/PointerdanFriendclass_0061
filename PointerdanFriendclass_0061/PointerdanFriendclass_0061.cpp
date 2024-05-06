@@ -9,7 +9,8 @@ public:
 	}
 }; 
 
-int main() {
+int main()
+{
 
 	mahasiswa mhs(1); // Object mhs
 	mhs.showNim(); //Member Access operator
@@ -22,3 +23,13 @@ int main() {
 	pMhs->showNim();
 	return 0;
 }
+
+class mahasiswa
+{
+public:
+	int nim;
+	void showNim()
+	{
+		cout << "No Induk = " << nim << endl;
+	}
+};
